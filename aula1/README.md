@@ -19,3 +19,21 @@
 - rodar em qualquer sistema operacional e em qualquer aparelho.
 - usaram uma **MÁQUINA VIRTUAL JAVA**, que possui o bytecode e biblioteca de funções, assim qualquer computador que tenha a JVM roda o mesmo programa.
 - a JVM pode ser usado por java, python, etc.
+
+## 🪛 Compilando Java e Python
+### Java 
+
+```java
+/* ---- COMANDOS ---- */
+/* javac nome_do_arquivo.java ->>> compilar o programa em java */
+/* java nome_do_arquivo.java ->>> executar o programa em java */
+/* ls: aparece a classe em bytecode */
+```
+
+### Python
+```python
+# ---- COMANDOS -----
+# ls ->>> ver todos arquivos que tem naquela pasta
+# python3 nome_do_arquivo.py ->>> comando para rodar python o terminal/ executar o programa
+# python3 nome_do_arquivo.py ARGUMENTO ->>> pode colocar argumentos também com o argv
+```
