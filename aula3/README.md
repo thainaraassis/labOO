@@ -17,3 +17,9 @@ Podemos:
 ```java
 Subclasse extends Superclasse
 ```
+
+Lembre-se da conveniência de criar um método
+```java
+public String toString()
+```
+nas suas classes, para pode exibir informações facilmente.
