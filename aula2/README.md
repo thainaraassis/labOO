@@ -1,8 +1,8 @@
-# ⚪ Conceitos básicos de POO
+# 🟣 Conceitos básicos de POO
 
 Surgiu na Noruega com a inguagem **Simula-67** e **Smalltalk-80**, com o conceito de programação estruturada e modularizada, organizado.
 
-## Objeto
+## 🎲 Objeto
 Encapsula:
 
 1. dados
@@ -12,7 +12,7 @@ Encapsula:
 
 Os objetos se comunicam, enviam mensagens entre si, ou seja, a chamada de método.
 
-## Classe
+## 🏫 Classe
 1. define os elementos de um conjuto de objetos
     - quais **métodos** e **atributos**
 2. instanciar objetos
@@ -23,12 +23,17 @@ Os objetos se comunicam, enviam mensagens entre si, ou seja, a chamada de métod
 ### Abstração
 Os objetos representam coisas do mundo real, do mundo virtual e computacional (jogos).
 
-## Variáveis de Classe
+## 🔡 Variáveis de Classe
 **static** Todas instâncias da classe compartilham a mesma variável, ou seja, o mesmo valor.
 
-## Variáveis de Objeto
+## 🔢 Variáveis de Objeto
 Variável de instância, cada objeto tem um valor específico para ela.
 
 > exemplo no arquivo Bola.java
 
-### Linguagem UML
+### 👠 Linguagem UML
+Linguagem de modelagem orientada a objetos para vizualizar software orientado a objetos. Podemos desenhar, uma linguagem gráfica, visual.
+
+Também podemos fazer especificação documentação e construção de um pedaço de código.
+
+- diagrama de classes
