@@ -1,4 +1,4 @@
-# Coleções de Objetos, Classes Abstratas,  Interfaces e Polimorfismos
+# 💣 Coleções de Objetos, Classes Abstratas,  Interfaces e Polimorfismos
 
 ## 🥇🥈 Coleções
 - sistemas de software complexos lidam com milhares de objetos.
