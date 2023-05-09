@@ -56,6 +56,7 @@ class MultiplicaMatrizes {
             System.out.print("\n");
         }
         
+        scanner.close();
 
     }
 }

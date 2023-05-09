@@ -3,7 +3,7 @@ package aula4.get_set;
 // Subclasse -> o "extends" indica que veiculos eh a superclasse de Carros
 public class Carro extends Veiculos {
     private int cilindradas;
-    private boolean airbag;
+    //private boolean airbag;
 
     // Método
     Carro (int rodas, String modelo, String marca, int cilindradas) {
