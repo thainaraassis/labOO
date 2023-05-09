@@ -19,7 +19,7 @@ public class Triangulo extends Poligonos {
         _lados[2] = lado_dif;
     }
 
-    private boolean ehValido() {
+    public boolean ehValido() {
         if(_lados[0] > 0 && _lados[1] > 0 && _lados[2] > 0) {
             if(_lados[0] < _lados[1] + _lados[2] && 
                _lados[1] < _lados[0] + _lados[2] && 

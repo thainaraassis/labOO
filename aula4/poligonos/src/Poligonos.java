@@ -9,7 +9,7 @@ public class Poligonos {
 
     private String _unidade = "cm"; // unidade de medida
 
-    private static final String id = "001"; // não pode ser alterado
+    //private static final String id = "001"; // não pode ser alterado
     private static int _no_poligonos = 0;
 
     // Cria um poligonoPoligonos com array de lados e descrição de tipo.

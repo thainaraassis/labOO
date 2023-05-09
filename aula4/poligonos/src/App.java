@@ -32,5 +32,30 @@ public class App {
         else
           System.out.println("Quadrado e retângulo não são compatíveis");
 
+
+        
+        // -------------- TRIANGULO ------------------
+        Triangulo um = new Triangulo(4); //equilatero
+        Triangulo dois = new Triangulo(2, 1); // isosceles
+        int[] lados = {3, 4, 5};
+        Triangulo tres = new Triangulo(lados); // todos diferentes
+
+        System.out.println(um);
+        System.out.println(um.ehValido());
+        um.setCor("rosa");
+        System.out.println(um.getCor());
+        System.out.println(um.getLados());
+
+        System.out.println(dois);
+        System.out.println(dois.ehValido());
+        dois.setCor("azul");
+        System.out.println(dois.getCor());
+        System.out.println(dois.getLados());
+
+        System.out.println(tres);
+        System.out.println(tres.ehValido());
+        tres.setCor("roxo");
+        System.out.println(tres.getCor());
+        System.out.println(tres.getLados());
     }
 }
