@@ -19,6 +19,10 @@ public class Retangulo extends Poligonos {
         return pegaLargura()*pegaAltura();
     }
 
+    public double calculaPerimetro() {
+        return 2*pegaAltura() + 2*pegaLargura();
+    }
+
     public int pegaLargura() { return _lados[0]; }
     public int pegaAltura() { return _lados[1]; }
 }
