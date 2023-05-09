@@ -29,7 +29,7 @@ public class AnelBooleano implements AnelAbstrato<Boolean> {
         return true;
     }
     
-    public void disjuncaoLogica(Boolean este, Boolean outro) {
+    public Boolean disjuncaoLogica(Boolean este, Boolean outro) {
         if(este || outro) return true;
         return false;
     }
