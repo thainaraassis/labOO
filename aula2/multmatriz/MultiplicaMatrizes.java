@@ -84,3 +84,11 @@ class MultiplicaMatrizes {
 // para rodar o programa colocando um arquivo.txt de entrada
 // java nome_do_programa.java la ca lb cb < nome_do_arquivo.txt
 
+/* COMO rodar código com entrada vinda de txt:
+ * 1. abrir o debugger (play + joaninha) e criar jason file.
+ * 2. add config e adicionar laung program with auguments prompt.
+ * 3. copiar ultima linha do que foi criado e deletar
+ * 4. colar oq foi copiado no final da ultima chave do codigo
+ * 5. voltar ao codigo nomral e rodar com 
+ *  java nome_arquivo.java _argumentos_ <nome_do_texto.txt
+ */
