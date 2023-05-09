@@ -13,7 +13,7 @@ public class TesteAnel {
         Racional t = Q.soma(q,s);
         System.out.println("q + s = " + t);
 
-        AnelBooleano b = new AnelBooleano();
+        AnelBool b = new AnelBool();
         boolean i = true; boolean j = false; boolean k = true;
         boolean B = b.disjuncaoLogica(i,j);
         boolean O = b.negativo(k);

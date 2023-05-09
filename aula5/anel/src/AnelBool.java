@@ -1,6 +1,6 @@
 package aula5.anel.src;
 
-public class AnelBooleano implements AnelAbstrato<Boolean> {
+public class AnelBool implements AnelAbstrato<Boolean> {
 
     @Override
     public Boolean zero() {
@@ -33,4 +33,5 @@ public class AnelBooleano implements AnelAbstrato<Boolean> {
         if(este || outro) return true;
         return false;
     }
+    
 }
