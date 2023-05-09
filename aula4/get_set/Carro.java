@@ -6,18 +6,23 @@ public class Carro extends Veiculos {
     private boolean airbag;
 
     // Método
-    public String toString() {
-        return "Carro fabricado em " + getAnoDeFabricacao() + " com " + cilindradas + " cilindradas";
-    }
-    
-    Carro (int ano, String modelo, String marca, int cilindradas) {
-        super(ano, modelo, marca); // chama a superclasse
+    Carro (int rodas, String modelo, String marca, int cilindradas) {
+        super(rodas, modelo, marca); // chama a superclasse
         this.cilindradas = cilindradas;
     }
+
+    Carro(String modelo, String marca) {
+        super(4, modelo,marca);
+    }
+
+    public String toString() {
+        return "Carro com " + getRodas() + " rodas e com " + cilindradas + " cilindradas";
+    }
+
     // metódo principal de entrada (do teclado), quando executar linha de comando vai executar isso
     public static void main (String args[]) {
 
-        Carro fordBigode = new Carro(1910, "bigode", "Ford", 2900);
+        Carro fordBigode = new Carro(4, "bigode", "Ford", 2900);
         System.out.println ("O veiculo criado foi " + fordBigode);
     }
 
