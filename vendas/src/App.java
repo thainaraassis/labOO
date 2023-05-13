@@ -12,8 +12,10 @@ public class App {
 
         for(int i = 0; i < n; i++) {
             int codigo = sc.nextInt();
-            String nome = sc.nextLine();
+            sc.nextLine();
             double valor = sc.nextDouble();
+            sc.nextLine();
+            String nome = sc.nextLine();
 
             todasVendas[i] = new VendasSp(codigo, nome, valor);
         }

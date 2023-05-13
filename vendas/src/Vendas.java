@@ -16,6 +16,6 @@ public abstract class Vendas {
     }
 
     public String toString() {
-        return "O produto comprado foi " + nome + " cujo codigo e valor sao " + codigo + valor;
+        return "O produto comprado foi " + nome + " cujo codigo eh " + codigo + " e valor eh " + valor;
     }
 }
