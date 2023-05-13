@@ -16,37 +16,37 @@ package aula5;
 
     // @Override
     // public void setPosicaoX() {
-    //     // TODO Auto-generated method stub
+    //     // 
     //     throw new UnsupportedOperationException("Unimplemented method 'setPosicaoX'");
     // }
 
     // @Override
     // public void setPosicaoy() {
-    //     // TODO Auto-generated method stub
+    //     // 
     //     throw new UnsupportedOperationException("Unimplemented method 'setPosicaoy'");
     // }
 
     // @Override
     // public void exploda(int intencidade) {
-    //     // TODO Auto-generated method stub
+    //     // 
     //     throw new UnsupportedOperationException("Unimplemented method 'exploda'");
     // }
 
     // @Override
     // public boolean colideCom(ObjetoEspacial oe) {
-    //     // TODO Auto-generated method stub
+    //    
     //     throw new UnsupportedOperationException("Unimplemented method 'colideCom'");
     // }
 
     // @Override
     // public String nome() {
-    //     // TODO Auto-generated method stub
+    //     
     //     throw new UnsupportedOperationException("Unimplemented method 'nome'");
     // }
 
     // @Override
     // public String descricao() {
-    //     // TODO Auto-generated method stub
+    //     
     //     throw new UnsupportedOperationException("Unimplemented method 'descricao'");
     // }
     
