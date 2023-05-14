@@ -15,6 +15,12 @@ public class Musicas {
     }
 
     public String toString() {
-        return "A musica eh " + titulo + ", sendo encontrada no album " + album + ", composto por " + compositor + " e interpretada por " + interprete + ". O seu lancamento ocorreu no ano " + ano;
+        String res = "\n--------------";
+        res += "\n Titulo: "  + titulo;
+        res += "\n Album: " + album;
+        res += "\n Compositor: " + compositor;
+        res += "\n Interprete: " + interprete;
+        res += "\n Ano: " + ano;
+        return res;
     }
 }

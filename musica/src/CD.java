@@ -4,4 +4,7 @@ public class CD extends Musicas{
         super(t, alb, comp, inter, ano);
     }
     
+    public String toString() {
+        return super.toString() + "\n Formato: CD";
+    }
 }

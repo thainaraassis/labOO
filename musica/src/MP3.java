@@ -9,7 +9,8 @@ public class MP3 extends Musicas {
 
     @Override
     public String toString() {
-        return super.toString() + " O arquivo possui " + tamanho + " bytes.";
+        return super.toString() + "\n Tamanho: "  + tamanho + " bytes"
+                                + "\n Formato: MP3";
     }
     
 }

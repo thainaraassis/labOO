@@ -8,7 +8,8 @@ public class LP extends Musicas {
     }
 
     public String toString() {
-        return super.toString() + " A sua velocidade eh " + velocidade + " rotacoes por minuto.";
+        return super.toString() + "\n Velocidade: " + velocidade + " rps"
+                                + "\n Formato: LP";
     }
     
 }
