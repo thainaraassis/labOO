@@ -1,4 +1,4 @@
-## Para casa: Exercício sobre vendas
+## 💸 Para casa: Exercício sobre vendas
 
 Implemente em Java, usando Polimorfismo, uma boa arquitetura OO para o seguinte problema.
 
